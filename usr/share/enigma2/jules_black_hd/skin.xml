@@ -177,18 +177,13 @@
 		</widget>
 		
 		<!-- epg event -->
-		<widget source="ServiceEvent" render="Label" position="834,410" zPosition="1" size="390,108" font="Regular;18" transparent="1" halign="center" valgin="center" foregroundColor="grey" backgroundColor="#333333" >
+		<widget source="ServiceEvent" render="Label" position="834,410" zPosition="1" size="390,208" font="Regular;18" transparent="1" halign="center" valgin="center" foregroundColor="grey" backgroundColor="#333333" >
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
 		
 		<!-- digital clock -->
 		<widget source="global.CurrentTime" render="Label" position="949,58" size="160,37" zPosition="2" font="LCD;38" valign="top" halign="center" foregroundColor="#89e4" backgroundColor="transpBlack" transparent="1">
                 <convert type="ClockToText">Format:%H:%M :%S</convert>
-                </widget>
-                <!-- epg event next -->
-                <eLabel text="next" position="834,510" size="64,28" font="Regular;20" backgroundColor="#333333" foregroundColor="#89e4" zPosition="3" transparent="1"/>
-                <widget source="ServiceNextEvent" render="Label" position="835,530" size="392,106" font="Regular;18" halign="center" foregroundColor="#89e4" backgroundColor="#333333" transparent="1">
-                <convert type="EventName">ExtendedDescription</convert>
                 </widget>
 	        </screen>
 	
