@@ -512,7 +512,7 @@
 	<screen name="PluginManager" position="center,center" size="1280,720" title="Extensions management" flags="wfNoBorder" >
 		<ePixmap position="0,0" zPosition="-3" size="1280,720" pixmap="jules_black_hd/menu/fr_main_channels.png" />
 		<ePixmap position="0,0" zPosition="1" size="576,69" pixmap="jules_black_hd/menu/tx_estension.png" />
-		<ePixmap position="775,116" zPosition="2" size="27,420" pixmap="jules_black_hd/icons/barra420.png" alphatest="blend" transparent="1" />
+		<ePixmap position="775,126" zPosition="2" size="27,420" pixmap="jules_black_hd/icons/barra420.png" alphatest="blend" transparent="1" />
 		<ePixmap position="57,625" zPosition="1" size="750,45" pixmap="jules_black_hd/menu/colorbar.png" alphatest="blend" transparent="1" />
 		<ePixmap position="930,417" zPosition="2" size="770,425" pixmap="jules_black_hd/menu/ico_estension.png" alphatest="blend" transparent="1" />
 		<widget source="list" render="Listbox" position="69,137" size="728,405" scrollbarMode="showOnDemand" selectionPixmap="jules_black_hd/icons/ls680x43.png" transparent="1">
